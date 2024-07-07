@@ -6,5 +6,5 @@
 ```go
 import "net/http"
 
-func(h http.Handler) http.Handler
+func MyMiddleware(h http.Handler) http.Handler {}
 ```
